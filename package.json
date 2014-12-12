@@ -1,0 +1,30 @@
+{
+  "name": "mogy-echo",
+  "main": "./index.js",
+  "version": "0.1.0",
+  "description": "Dummy Echo activity for Mogy",
+  "author": {
+    "name": "Eric Abouaf",
+    "email": "eric.abouaf@gmail.com"
+  },
+  "keywords": [
+    "mogy-activity",
+    "echo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/neyric/mogy-echo.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "activities": {
+    "echo": {
+      "defaultTaskHeartbeatTimeout": "NONE",
+      "defaultTaskScheduleToCloseTimeout": "NONE",
+      "defaultTaskScheduleToStartTimeout": "NONE",
+      "defaultTaskStartToCloseTimeout": "NONE",
+      "description": "Outputs its input..."
+    }
+  }
+}
